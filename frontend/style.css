@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+#info{
+   background: #555555;
+   margin: 10px;
+   padding: 15px;
+   width: 95%;
+}
+
+#warning {
+   color: #f55;
+}
+
+#ws-waveform {
+   background: black;
+   width:95%;
+   justify-content: center; 
+   margin: 10px;
+   border: 2px solid white; 
+}
+#ws-spectorogram {
+   background: black;
+   width: 95%;
+   justify-content: center; 
+   margin: 10px;
+   border: 2px solid white; 
+}
+
+#record_button, #classify_button, #play_button {
+   font-size: 30;
+   color: black;
+   margin: 10px;
+}
+
+.progress{
+  max-width: 95%;
+  margin: 5px;
+}
+
+#top-label {
+   font-size: 20;
+   font-family: Helvetica-Neue, sans-serif;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 2px;
+  margin: 10px;
+  width: 95%;
+}
+
+.grid-item {
+   border: 2px solid rgba(255, 255, 255, 0.8);
+   padding: 10px;
+   text-align: center;
+   background: black;
+   justify-content: center; 
+   border: 0px solid white; 
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #401a63;
+  color: white; 
+}
+
+#initialization {
+   margin: 10px;
+   valign: center;
+}
+
+.container {
+   text-align: center;
+   width: 100%;
+   padding: 20px;
+}
+
+.header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 60px;
+}
+
+.logo {
+   max-width: 180px; /* Adjust as needed */
+   height: auto;
+   margin-right: 15px;
+   margin-left: 35px;
+   margin-top: 25px;
+}
+
+.title {
+   font-size: 4.5rem;
+   font-weight: bold;
+   color: #fff;
+   margin-right: 55px;
+   margin-top: 60px;
+}
+
+.banner {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   padding-bottom: 40px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+   .header {
+      flex-direction: column;
+   }
+
+   .logo {
+      
+      width: 200px;
+   }
+
+   .title {
+      font-size: 3.5rem;
+      margin-left: 55px;
+   }
+
+   .banner {
+      width: 100%; /* Full width on mobile */
+   }
+}
+
+
+
+footer {
+   background-color: #661d61; /* Dark background for contrast */
+   color: #fff; /* White text color for readability */
+   text-align: center; /* Center the text */
+   font-family: 'Arial', sans-serif;
+   font-size: 1rem; /* Adjust font size */
+   margin-top: 30px;
+   padding: 18px 0;
+}
+
+footer p {
+   margin: 5px 0; /* Space between paragraphs */
+}
+
+footer p:first-child {
+   font-weight: bold; /* Make the first line bolder */
+}
+
+footer p:last-child {
+   font-style: italic; /* Make the second line italic */
+}
+
+footer p a{
+   margin-left: 5px;
+}
+
+
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+   footer {
+      font-size: 0.9rem; /* Adjust font size for mobile */
+   }
+}
