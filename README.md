@@ -2,6 +2,10 @@
 
 BeatBox AI is an innovative AI-driven web application that analyzes and generates drum sequences using cutting-edge deep learning techniques. The application leverages Convolutional Neural Networks (CNNs) to classify drum sounds based on audio spectrograms and Recurrent Neural Networks (RNNs) for generating rhythmic drum sequences in real time.
 
+## 🌐 Live Demo
+
+Check out the live version of the project here: [BeatBox AI](https://ai-beatbox.vercel.app/)
+
 ## 🚀 How It Works
 
 1. **Audio Classification**:
@@ -56,6 +60,6 @@ The model classifies the following drum sounds:
    run index.html
    ```
 
-license: MIT
-```
+## 📜 License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
