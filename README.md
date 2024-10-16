@@ -55,7 +55,7 @@ The model classifies the following drum sounds:
 
 **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/beatbox-ai.git
+   git clone https://github.com/Vi-shub/Ai-beatbox.git
    cd beatbox-ai
    run index.html
    ```
